@@ -1,0 +1,54 @@
+
+.cardList{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  border: 1px  rgb(255, 255, 255) solid ;
+}
+.card{
+  border: 4px  rgb(248, 228, 44) solid ;
+  background-color: rgb(212, 95, 212);
+  border-radius: 9px;
+  width: 23%;
+  margin-top: 2px;
+  text-align: center;
+}
+.card .img{
+  width: 65%;
+}
+.container{
+  width: 215vh;
+  height: 100%;
+  border: 1px  rgb(255, 255, 255)  solid ;
+}
+.InputField{
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  border: 1px  rgb(255, 255, 255) solid ;
+  height: 90px;
+}
+.search {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.color{
+  width: 25%; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.AddRobot{
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+
+}
+
+
